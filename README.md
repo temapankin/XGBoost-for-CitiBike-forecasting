@@ -20,15 +20,15 @@ The full research paper explaining data sources, methodology, and results is inc
 ```text
 XGBoost-for-CitiBike-forecasting/
 ├── docs/
-│   └── FinalPaper.pdf        # full research paper
-├── data/                     # cleaned & merged CSVs ready for analysis
+│   └── FinalPaper.pdf                  # full research paper
+├── data/                               # cleaned & merged CSVs ready for analysis
 ├── notebooks/
-│   ├── 00-exploratory.ipynb  # EDA & feature engineering
-│   ├── 01-modeling.ipynb     # model training & evaluation
-│   └── 02-forecast.ipynb     # one-day forecast demo
-├── figures/                  # all plots, e.g. pred_vs_actual.png, residuals.png
-├── README.md                 # project overview & usage
-├── LICENSE                   # MIT
+│   ├── 01-citibikeaggregation.ipynb    # Citi Bike data aggregation
+│   ├── 02-weatherdata.ipynb            # weather data collection
+│   └── 03-dataprepandmodelling.ipynb   # EDA, modelling and forecast
+├── figures/                            # all plots, e.g. pred_vs_actual.png, residuals.png
+├── README.md                           # project overview & usage
+├── LICENSE                             # MIT
 └── .gitignore                
 ```
 
