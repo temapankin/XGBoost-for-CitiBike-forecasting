@@ -13,18 +13,31 @@ The XGBoost model achieves an MAE of ~13.6%, enabling operators and planners to 
 
 ## 📑 Paper
 
-The full research paper explaining data sources, methodology, and results is included as a PDF in the repository:
+The full research paper explaining data sources, methodology, and results is included as a PDF in the repository: [Full research paper](docs/FinalPaper.pdf)
 
-[full research paper](docs/FinalPaper.pdf)
+## Repository Structure
 
----
+```text
+XGBoost-for-CitiBike-forecasting/
+├── docs/
+│   └── FinalPaper.pdf        # full research paper
+├── data/                     # cleaned & merged CSVs ready for analysis
+├── notebooks/
+│   ├── 00-exploratory.ipynb  # EDA & feature engineering
+│   ├── 01-modeling.ipynb     # model training & evaluation
+│   └── 02-forecast.ipynb     # one-day forecast demo
+├── figures/                  # all plots, e.g. pred_vs_actual.png, residuals.png
+├── README.md                 # project overview & usage
+├── LICENSE                   # MIT
+└── .gitignore                
+```
 
 ## 🗃 Data Sources
 
-* **Citi Bike trip data** (2014–2025): downloaded from [https://citibikenyc.com/system-data][Citi Bike System Data].
-* **Weather data**: retrieved via [https://open-meteo.com/en/docs/historical-weather-api][Open-Meteo API] for daily aggregates.
+- **Citi Bike trip data** (2014–2025): downloaded from [Citi Bike System Data](https://citibikenyc.com/system-data).
+- **Weather data**: retrieved via [Open-Meteo API](https://open-meteo.com/en/docs/historical-weather-api) for daily aggregates.
 
-##⚙️ Model Use
+## ⚙️ Model Use
 
 The trained XGBoost model is available at outputs/models/xgb_model.pkl and can be loaded and used as follows:
 
