@@ -13,9 +13,7 @@ The XGBoost model achieves an MAE of ~13.6%, enabling operators and planners to 
 
 ## 📑 Paper
 
-The full research paper explaining data sources, methodology, and results is included as a PDF in the repository:
-
-[Full research paper](docs/FinalPaper.pdf)
+The full research paper explaining data sources, methodology, and results is included as a PDF in the repository: [Full research paper](docs/FinalPaper.pdf)
 
 ## Repository Structure
 
