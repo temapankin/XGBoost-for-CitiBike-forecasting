@@ -24,7 +24,7 @@ The full research paper explaining data sources, methodology, and results is inc
 * **Citi Bike trip data** (2014–2025): downloaded from [https://citibikenyc.com/system-data][Citi Bike System Data].
 * **Weather data**: retrieved via [https://open-meteo.com/en/docs/historical-weather-api][Open-Meteo API] for daily aggregates.
 
-##⚙️ Model Use
+## ⚙️ Model Use
 
 The trained XGBoost model is available at outputs/models/xgb_model.pkl and can be loaded and used as follows:
 
